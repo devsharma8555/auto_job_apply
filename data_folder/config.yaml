@@ -10,7 +10,7 @@ experienceLevel:
 
 jobTypes:
   full-time: true
-  contract: true
+  contract: false
   part-time: false
   temporary: false
   internship: false
@@ -18,15 +18,20 @@ jobTypes:
   volunteer: false
 
 date:
-  all time: true
-  month: false
+  all time: false
+  month: true
   week: false
   24 hours: false
 
 positions:
   - Product Designer
+  - UX/UI Designer
   - UX Designer
   - UI Designer
+  - Interaction Designer
+  - User Experience Researcher
+  - Visual Designer
+  - Experience Designer
 
 locations:
   - United States
