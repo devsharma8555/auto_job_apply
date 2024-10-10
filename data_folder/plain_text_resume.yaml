@@ -1,11 +1,10 @@
 personal_information:
   name: "[Your Name]"
   surname: "[Your Surname]"
-  date_of_birth: "[Your Date of Birth]"
+  date_of_birth: "[DD/MM/YYYY]"
   country: "[Your Country]"
   city: "[Your City]"
   address: "[Your Address]"
-  zip_code: "[Your zip code]"
   phone_prefix: "[Your Phone Prefix]"
   phone: "[Your Phone Number]"
   email: "[Your Email Address]"
@@ -13,94 +12,75 @@ personal_information:
   linkedin: "[Your LinkedIn Profile URL]"
 
 education_details:
-  - education_level: "[Your Education Level]"
-    institution: "[Your Institution]"
+  - degree: "[Your Degree]"
+    university: "[Your University]"
+    gpa: "[Your GPA]"
+    graduation_year: "[Year of Graduation]"
     field_of_study: "[Your Field of Study]"
-    final_evaluation_grade: "[Your Final Evaluation Grade]"
-    start_date: "[Start Date]"
-    year_of_completion: "[Year of Completion]"
     exam:
-      exam_name_1: "[Grade]"
-      exam_name_2: "[Grade]"
-      exam_name_3: "[Grade]"
-      exam_name_4: "[Grade]"
-      exam_name_5: "[Grade]"
-      exam_name_6: "[Grade]"
+      [Course Name 1]: "[Grade]"
+      [Course Name 2]: "[Grade]"
+      [Course Name 3]: "[Grade]"
+      [Course Name 4]: "[Grade]"
+      [Course Name 5]: "[Grade]"
 
 experience_details:
-  - position: "[Your Position]"
+  - position: "[Your Job Title]"
     company: "[Company Name]"
-    employment_period: "[Employment Period]"
+    employment_period: "[Start Date] - [End Date]"
     location: "[Location]"
     industry: "[Industry]"
     key_responsibilities:
-      - responsibility_1: "[Responsibility Description]"
-      - responsibility_2: "[Responsibility Description]"
-      - responsibility_3: "[Responsibility Description]"
+      - responsibility_1: "[Key Responsibility 1]"
+      - responsibility_2: "[Key Responsibility 2]"
+      - responsibility_3: "[Key Responsibility 3]"
     skills_acquired:
-      - "[Skill]"
-      - "[Skill]"
-      - "[Skill]"
-
-  - position: "[Your Position]"
-    company: "[Company Name]"
-    employment_period: "[Employment Period]"
-    location: "[Location]"
-    industry: "[Industry]"
-    key_responsibilities:
-      - responsibility_1: "[Responsibility Description]"
-      - responsibility_2: "[Responsibility Description]"
-      - responsibility_3: "[Responsibility Description]"
-    skills_acquired:
-      - "[Skill]"
-      - "[Skill]"
-      - "[Skill]"
+      - "[Skill 1]"
+      - "[Skill 2]"
+      - "[Skill 3]"
 
 projects:
   - name: "[Project Name]"
-    description: "[Project Description]"
-    link: "[Project Link]"
-
+    description: "[Brief Description of the Project]"
+    link: "[Project URL]"
   - name: "[Project Name]"
-    description: "[Project Description]"
-    link: "[Project Link]"
+    description: "[Brief Description of the Project]"
+    link: "[Project URL]"
 
 achievements:
-  - name: "[Achievement Name]"
-    description: "[Achievement Description]"
-  - name: "[Achievement Name]"
-    description: "[Achievement Description]"
+  - name: "[Achievement Title]"
+    description: "[Brief Description of the Achievement]"
+  - name: "[Achievement Title]"
+    description: "[Brief Description of the Achievement]"
 
 certifications:
-  - name: "[Certification Name]"
-    description: "[Certification Description]"
-  - name: "[Certification Name]"
-    description: "[Certification Description]"
+  - "[Certification Name]"
 
 languages:
-  - language: "[Language]"
+  - language: "[Language Name]"
     proficiency: "[Proficiency Level]"
-  - language: "[Language]"
+  - language: "[Language Name]"
     proficiency: "[Proficiency Level]"
 
 interests:
-  - "[Interest]"
-  - "[Interest]"
-  - "[Interest]"
+  - "[Interest 1]"
+  - "[Interest 2]"
+  - "[Interest 3]"
+  - "[Interest 4]"
+  - "[Interest 5]"
 
 availability:
   notice_period: "[Notice Period]"
 
 salary_expectations:
-  salary_range_usd: "[Salary Range]"
+  salary_range_usd: "[Expected Salary Range in USD]"
 
 self_identification:
   gender: "[Gender]"
   pronouns: "[Pronouns]"
-  veteran: "[Yes/No]"
-  disability: "[Yes/No]"
+  veteran: "[Veteran Status]"
+  disability: "[Disability Status]"
   ethnicity: "[Ethnicity]"
-
 
 legal_authorization:
   eu_work_authorization: "[Yes/No]"
@@ -111,15 +91,6 @@ legal_authorization:
   legally_allowed_to_work_in_eu: "[Yes/No]"
   legally_allowed_to_work_in_us: "[Yes/No]"
   requires_eu_sponsorship: "[Yes/No]"
-  canada_work_authorization: "[Yes/No]"
-  requires_canada_visa: "[Yes/No]"
-  legally_allowed_to_work_in_canada: "[Yes/No]"
-  requires_canada_sponsorship: "[Yes/No]"
-  uk_work_authorization: "[Yes/No]"
-  requires_uk_visa: "[Yes/No]"
-  legally_allowed_to_work_in_uk: "[Yes/No]"
-  requires_uk_sponsorship: "[Yes/No]"
-
 
 work_preferences:
   remote_work: "[Yes/No]"
